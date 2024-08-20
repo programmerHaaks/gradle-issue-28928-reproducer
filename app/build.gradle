@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation libs.lAng
+    // but this works (without changing libs.versions.toml)
+    // implementation libs.LAng
+}
